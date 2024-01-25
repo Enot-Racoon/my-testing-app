@@ -1,0 +1,13 @@
+.header {
+  gap: 1em;
+  display: flex;
+  list-style: none;
+
+  .link {
+    font-weight: bold;
+
+    &.active {
+      text-decoration: underline;
+    }
+  }
+}

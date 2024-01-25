@@ -1,15 +1,14 @@
-import UserList from '@src/pages/user-list'
+import { Suspense } from 'react'
+import Pages from '@src/pages'
 
 import './styles.css'
 
-function App() {
-  return (
-    <>
-      <h1>My Testing App</h1>
-      {/* <ProductList /> */}
-      <UserList />
-    </>
-  )
-}
+const App = () => (
+  <>
+    <Suspense>
+      <Pages />
+    </Suspense>
+  </>
+)
 
 export default App
