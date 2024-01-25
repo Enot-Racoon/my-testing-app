@@ -1,5 +1,12 @@
 .productCard {
+  display: grid;
+  justify-items: center;
+
   &.highlighted {
     border: 1px solid violet;
+  }
+
+  .price {
+    font-size: 20px;
   }
 }

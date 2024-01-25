@@ -19,7 +19,8 @@
     "react-dom": "^18.2.0",
     "react-router": "^6.21.3",
     "react-router-dom": "^6.21.3",
-    "react-router-typesafe-routes": "^1.2.1"
+    "react-router-typesafe-routes": "^1.2.1",
+    "realm-web": "^2.0.0"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^6.3.0",

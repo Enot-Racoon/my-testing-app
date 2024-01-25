@@ -6,6 +6,5 @@ import { routerConfig } from './routes'
 export default function Pages() {
   const router = useMemo(() => createBrowserRouter(routerConfig), [])
 
-  return <RouterProvider router={router} fallbackElement={<>Error</>} />
+  return <RouterProvider router={router} />
 }
-

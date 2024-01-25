@@ -4,11 +4,9 @@ import Pages from '@src/pages'
 import './styles.css'
 
 const App = () => (
-  <>
-    <Suspense>
-      <Pages />
-    </Suspense>
-  </>
+  <Suspense>
+    <Pages />
+  </Suspense>
 )
 
 export default App

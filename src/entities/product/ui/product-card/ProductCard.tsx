@@ -1,5 +1,5 @@
 import cn from 'classnames'
-import { Product } from '../../types'
+import { Product } from '@src/shared/api'
 
 import styles from './ProductCard.module.scss'
 
@@ -16,7 +16,7 @@ export const ProductCard = ({ product, highlight = 0 }: ProductCardProps) => {
       <div>
         <img alt={product.name} src={product.image} />
       </div>
-      <div>Price: ${product.price}</div>
+      <div className={styles.price}>Price: ${product.price}</div>
     </div>
   )
 }
