@@ -1,4 +1,4 @@
-import { Product } from './types'
+import { Product } from '@src/shared/api'
 
 export const model: Product[] = [
   {
