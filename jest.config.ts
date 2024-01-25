@@ -7,6 +7,8 @@ export default {
   moduleNameMapper: {
     '\\.(gif|ttf|eot|svg|png)$': '<rootDir>/jest/__mocks__/fileMock.js',
     '\\.(css|scss)$': 'identity-obj-proxy',
+    '^@src/(.*)$': '<rootDir>src/$1',
+    '^@ui/(.*)$': '<rootDir>src/shared/ui/$1',
   },
   resetMocks: true,
 }
