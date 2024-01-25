@@ -9,20 +9,25 @@ const NavLink = (props: LinkProp) => {
 
 export default function Header() {
   return (
-    <ul className={styles.header}>
-      <li>
-        <NavLink to={Routes.Home.path}>Home</NavLink>
-      </li>
-      <li>
-        <NavLink className={styles.link} to={Routes.Products.path}>
-          Products
-        </NavLink>
-      </li>
-      <li>
-        <NavLink className={styles.link} to={Routes.Users.path}>
-          Users
-        </NavLink>
-      </li>
-    </ul>
+    <div className={styles.wrapper}>
+      <Link className={styles.logo} to="/">
+        My Testing App
+      </Link>
+      <ul className={styles.header}>
+        <li>
+          <NavLink to={Routes.Home.path}>Home</NavLink>
+        </li>
+        <li>
+          <NavLink className={styles.link} to={Routes.Products.path}>
+            Products
+          </NavLink>
+        </li>
+        <li>
+          <NavLink className={styles.link} to={Routes.Users.path}>
+            Users
+          </NavLink>
+        </li>
+      </ul>
+    </div>
   )
 }
