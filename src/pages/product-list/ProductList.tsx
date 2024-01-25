@@ -9,12 +9,12 @@ import styles from './ProductList.module.scss'
 export default function ProductList() {
   const [highlight, setHighlight] = useState(0)
   const onChangeHighlight = ({ target }: ChangeEvent<HTMLInputElement>) => {
-    setHighlight(() => parseInt(target.value) || 0)
+    setHighlight(() => Math.max(parseInt(target.value, 10) || 0, 0))
   }
 
   return (
     <Layout header={Header}>
-      <h2>Our products</h2>
+      <h1>Our products</h1>
       <p>
         Highlight Products with price more{' '}
         <input type="number" step={100} value={highlight} onChange={onChangeHighlight} />

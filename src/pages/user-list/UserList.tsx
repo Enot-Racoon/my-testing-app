@@ -26,7 +26,7 @@ export default function UserList() {
 
   return (
     <Layout header={Header}>
-      <h2>Uses:</h2>
+      <h1>Uses:</h1>
       <div>
         {users.map(user => (
           <UserRow key={user.id} user={user} />

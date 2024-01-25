@@ -6,9 +6,9 @@ export interface DefaultLayoutProps {
 
 export default function Layout({ children, header: Header }: PropsWithChildren<DefaultLayoutProps>) {
   return (
-    <div>
+    <>
       {Header && <Header />}
-      <div>{children}</div>
-    </div>
+      {children}
+    </>
   )
 }
