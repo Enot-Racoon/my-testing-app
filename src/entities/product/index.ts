@@ -1,2 +1,2 @@
-export * as taskModel from './model'
+export * as productModel from './model'
 export * from './ui'
