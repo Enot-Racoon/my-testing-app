@@ -1,7 +1,6 @@
 // noinspection SuspiciousTypeOfGuard
 
 import 'jest'
-import 'whatwg-fetch'
 
 import { getUsers } from '../users'
 
