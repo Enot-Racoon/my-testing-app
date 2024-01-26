@@ -22,9 +22,9 @@ export default {
       },
     ],
   },
-  setupFilesAfterEnv: ['<rootDir>jest/jest.setup.ts'],
+  setupFilesAfterEnv: ['<rootDir>tests/jest/jest.setup.ts'],
   moduleNameMapper: {
-    '\\.(gif|ttf|eot|svg|png|jpg|jpeg)$': '<rootDir>jest/__mocks__/fileMock.js',
+    '\\.(gif|ttf|eot|svg|png|jpg|jpeg)$': '<rootDir>tests/jest/__mocks__/fileMock.js',
     '\\.(css|scss)$': 'identity-obj-proxy',
     '^@src/(.*)$': '<rootDir>src/$1',
     '^@ui/(.*)$': '<rootDir>src/shared/ui/$1',
