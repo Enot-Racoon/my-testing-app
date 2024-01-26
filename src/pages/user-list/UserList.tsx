@@ -21,7 +21,15 @@ const UserListContent = () => {
     return <>Users not found</>
   }
 
-  return <div>{users?.map(user => <UserRow key={user.id} user={user} />)}</div>
+  return (
+    <ul>
+      {users?.map(user => (
+        <li key={user.id}>
+          <UserRow user={user} />
+        </li>
+      ))}
+    </ul>
+  )
 }
 
 export default function UserList() {

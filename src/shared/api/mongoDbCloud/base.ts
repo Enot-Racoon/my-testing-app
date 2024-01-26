@@ -1,7 +1,7 @@
 import * as Realm from 'realm-web'
 
 import Config from '@src/config'
-import { type Product } from '@src/shared/api'
+import { Document } from '@src/shared/api'
 
 export const getDb = async () => {
   const app = new Realm.App({ id: Config.appID })
@@ -19,12 +19,6 @@ export const getDb = async () => {
   return mongo?.db(Config.dbName)
 }
 
-export const getDbCollection = async (connection: string) => {
-  return (await getDb())?.collection(connection)
-}
-
-export const getProducts = async (): Promise<Product[]> => {
-  const collection = await getDbCollection('products')
-
-  return (await collection?.find()) as Product[]
+export const getDbCollection = async <T>(connection: string) => {
+  return (await getDb())?.collection<Document<T>>(connection)
 }

@@ -1,4 +1,4 @@
-import { Product } from '@src/shared/api'
+import { Filter, FindOneOptions, getDbCollection, Product } from '@src/shared/api'
 
 export const model: Product[] = [
   {
@@ -62,3 +62,15 @@ export const model: Product[] = [
     image: 'https://avatars.mds.yandex.net/get-mpic/4828674/img_id1391161735283080126.jpeg/200x200',
   },
 ]
+
+const COLLECTION = 'products'
+
+const getCollection = () => getDbCollection<Product>(COLLECTION)
+
+export const getProducts = async (filter?: Filter, options?: FindOneOptions): Promise<Product[]> => {
+  return (await getCollection())?.find(filter, options) ?? []
+}
+
+export const addProduct = async (product: Product) => {
+  return (await getCollection())?.insertOne(product)
+}

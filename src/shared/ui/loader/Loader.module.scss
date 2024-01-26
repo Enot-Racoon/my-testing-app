@@ -1,6 +1,7 @@
 .loader {
-  width: 8px;
-  height: 8px;
+  width: 0.5em;
+  height: 0.5em;
+  margin: 2em;
   animation: spinner-b 1s infinite linear;
 
   & div {
