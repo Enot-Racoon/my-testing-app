@@ -1,0 +1,531 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders the main page 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="wrapper"
+      >
+        <a
+          aria-current="page"
+          class="logo undefined"
+          href="/"
+        >
+          My Testing App
+        </a>
+        <ul
+          class="header"
+        >
+          <li>
+            <a
+              aria-current="page"
+              class="link active"
+              href="/"
+            >
+              Home
+            </a>
+          </li>
+          <li>
+            <a
+              class="link "
+              href="/products"
+            >
+              Products
+            </a>
+          </li>
+          <li>
+            <a
+              class="link "
+              href="/users"
+            >
+              Users
+            </a>
+          </li>
+        </ul>
+      </div>
+      <h1>
+        Home Page
+      </h1>
+      <img
+        alt=""
+        class="image"
+        src="test-file-stub"
+      />
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="wrapper"
+    >
+      <a
+        aria-current="page"
+        class="logo undefined"
+        href="/"
+      >
+        My Testing App
+      </a>
+      <ul
+        class="header"
+      >
+        <li>
+          <a
+            aria-current="page"
+            class="link active"
+            href="/"
+          >
+            Home
+          </a>
+        </li>
+        <li>
+          <a
+            class="link "
+            href="/products"
+          >
+            Products
+          </a>
+        </li>
+        <li>
+          <a
+            class="link "
+            href="/users"
+          >
+            Users
+          </a>
+        </li>
+      </ul>
+    </div>
+    <h1>
+      Home Page
+    </h1>
+    <img
+      alt=""
+      class="image"
+      src="test-file-stub"
+    />
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Renders the users page 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="wrapper"
+      >
+        <a
+          class="logo "
+          href="/"
+        >
+          My Testing App
+        </a>
+        <ul
+          class="header"
+        >
+          <li>
+            <a
+              class="link "
+              href="/"
+            >
+              Home
+            </a>
+          </li>
+          <li>
+            <a
+              class="link "
+              href="/products"
+            >
+              Products
+            </a>
+          </li>
+          <li>
+            <a
+              aria-current="page"
+              class="link active"
+              href="/users"
+            >
+              Users
+            </a>
+          </li>
+        </ul>
+      </div>
+      <h1>
+        Users
+      </h1>
+      <ul>
+        <li>
+          <div>
+            <strong>
+              Leanne Graham
+            </strong>
+            : ✉️ 
+            Sincere@april.biz
+            , ☎️ 
+            1-770-736-8031 x56442
+          </div>
+        </li>
+        <li>
+          <div>
+            <strong>
+              Ervin Howell
+            </strong>
+            : ✉️ 
+            Shanna@melissa.tv
+            , ☎️ 
+            010-692-6593 x09125
+          </div>
+        </li>
+        <li>
+          <div>
+            <strong>
+              Clementine Bauch
+            </strong>
+            : ✉️ 
+            Nathan@yesenia.net
+            , ☎️ 
+            1-463-123-4447
+          </div>
+        </li>
+        <li>
+          <div>
+            <strong>
+              Patricia Lebsack
+            </strong>
+            : ✉️ 
+            Julianne.OConner@kory.org
+            , ☎️ 
+            493-170-9623 x156
+          </div>
+        </li>
+        <li>
+          <div>
+            <strong>
+              Chelsey Dietrich
+            </strong>
+            : ✉️ 
+            Lucio_Hettinger@annie.ca
+            , ☎️ 
+            (254)954-1289
+          </div>
+        </li>
+        <li>
+          <div>
+            <strong>
+              Mrs. Dennis Schulist
+            </strong>
+            : ✉️ 
+            Karley_Dach@jasper.info
+            , ☎️ 
+            1-477-935-8478 x6430
+          </div>
+        </li>
+        <li>
+          <div>
+            <strong>
+              Kurtis Weissnat
+            </strong>
+            : ✉️ 
+            Telly.Hoeger@billy.biz
+            , ☎️ 
+            210.067.6132
+          </div>
+        </li>
+        <li>
+          <div>
+            <strong>
+              Nicholas Runolfsdottir V
+            </strong>
+            : ✉️ 
+            Sherwood@rosamond.me
+            , ☎️ 
+            586.493.6943 x140
+          </div>
+        </li>
+        <li>
+          <div>
+            <strong>
+              Glenna Reichert
+            </strong>
+            : ✉️ 
+            Chaim_McDermott@dana.io
+            , ☎️ 
+            (775)976-6794 x41206
+          </div>
+        </li>
+        <li>
+          <div>
+            <strong>
+              Clementina DuBuque
+            </strong>
+            : ✉️ 
+            Rey.Padberg@karina.biz
+            , ☎️ 
+            024-648-3804
+          </div>
+        </li>
+      </ul>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="wrapper"
+    >
+      <a
+        class="logo "
+        href="/"
+      >
+        My Testing App
+      </a>
+      <ul
+        class="header"
+      >
+        <li>
+          <a
+            class="link "
+            href="/"
+          >
+            Home
+          </a>
+        </li>
+        <li>
+          <a
+            class="link "
+            href="/products"
+          >
+            Products
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current="page"
+            class="link active"
+            href="/users"
+          >
+            Users
+          </a>
+        </li>
+      </ul>
+    </div>
+    <h1>
+      Users
+    </h1>
+    <ul>
+      <li>
+        <div>
+          <strong>
+            Leanne Graham
+          </strong>
+          : ✉️ 
+          Sincere@april.biz
+          , ☎️ 
+          1-770-736-8031 x56442
+        </div>
+      </li>
+      <li>
+        <div>
+          <strong>
+            Ervin Howell
+          </strong>
+          : ✉️ 
+          Shanna@melissa.tv
+          , ☎️ 
+          010-692-6593 x09125
+        </div>
+      </li>
+      <li>
+        <div>
+          <strong>
+            Clementine Bauch
+          </strong>
+          : ✉️ 
+          Nathan@yesenia.net
+          , ☎️ 
+          1-463-123-4447
+        </div>
+      </li>
+      <li>
+        <div>
+          <strong>
+            Patricia Lebsack
+          </strong>
+          : ✉️ 
+          Julianne.OConner@kory.org
+          , ☎️ 
+          493-170-9623 x156
+        </div>
+      </li>
+      <li>
+        <div>
+          <strong>
+            Chelsey Dietrich
+          </strong>
+          : ✉️ 
+          Lucio_Hettinger@annie.ca
+          , ☎️ 
+          (254)954-1289
+        </div>
+      </li>
+      <li>
+        <div>
+          <strong>
+            Mrs. Dennis Schulist
+          </strong>
+          : ✉️ 
+          Karley_Dach@jasper.info
+          , ☎️ 
+          1-477-935-8478 x6430
+        </div>
+      </li>
+      <li>
+        <div>
+          <strong>
+            Kurtis Weissnat
+          </strong>
+          : ✉️ 
+          Telly.Hoeger@billy.biz
+          , ☎️ 
+          210.067.6132
+        </div>
+      </li>
+      <li>
+        <div>
+          <strong>
+            Nicholas Runolfsdottir V
+          </strong>
+          : ✉️ 
+          Sherwood@rosamond.me
+          , ☎️ 
+          586.493.6943 x140
+        </div>
+      </li>
+      <li>
+        <div>
+          <strong>
+            Glenna Reichert
+          </strong>
+          : ✉️ 
+          Chaim_McDermott@dana.io
+          , ☎️ 
+          (775)976-6794 x41206
+        </div>
+      </li>
+      <li>
+        <div>
+          <strong>
+            Clementina DuBuque
+          </strong>
+          : ✉️ 
+          Rey.Padberg@karina.biz
+          , ☎️ 
+          024-648-3804
+        </div>
+      </li>
+    </ul>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
