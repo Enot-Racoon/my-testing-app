@@ -3,9 +3,20 @@ import react from '@vitejs/plugin-react-swc'
 import path from 'path'
 
 // https://vitejs.dev/config/
+// export default ({ mode }) => {
+// const env = loadEnv(mode, process.cwd())
+//
+// const envWithProcessPrefix = Object.entries(env).reduce((prev, [key, val]) => {
+//   return {
+//     ...prev,
+//     ['process.env.' + key]: `"${val}"`,
+//   }
+// }, {})
+
 export default defineConfig({
+  // return defineConfig({
   plugins: [react()],
-  define: { 'process.env': process.env },
+  // define: envWithProcessPrefix,
   resolve: {
     alias: {
       '@src': path.resolve(__dirname, './src/'),
@@ -13,3 +24,4 @@ export default defineConfig({
     },
   },
 })
+// }
