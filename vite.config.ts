@@ -17,6 +17,8 @@ export default defineConfig({
   // return defineConfig({
   plugins: [react()],
   // define: envWithProcessPrefix,
+  server: { host: '0.0.0.0', port: 3000 },
+  preview: { port: 3000 },
   resolve: {
     alias: {
       '@src': path.resolve(__dirname, './src/'),
