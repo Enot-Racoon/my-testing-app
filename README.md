@@ -21,5 +21,3 @@
 ## Testing e2e
 
 ### `pnpm build && pnpm preview & pnpm test:e2e`
-
-`
